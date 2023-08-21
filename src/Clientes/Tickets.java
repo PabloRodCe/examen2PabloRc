@@ -12,11 +12,11 @@ public class Tickets {
    private int numero;
    private String tipo;
    
-    switch tipo:
-            case p-> plataforma;
-            case c -> caja;
-            case a -> preferencial;
-                
+   tipo plataforma = new tipo();
+   tipo caja = new tipo();
+   tipo preferencial = new tipo();
+   
+   
    
 
     public void setNumero(int numero) {
