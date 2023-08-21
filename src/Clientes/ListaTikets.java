@@ -13,20 +13,22 @@ import java.util.ArrayList;
 public class ListaTikets extends Tickets {
     ArrayList<String> list = new  ArrayList<>();
 
-    public ListaTikets(int numero, char tipo) {
+    public ListaTikets(int numero, String tipo) {
         super(numero, tipo);
     }
     
     
-    public boolean agregar(Tickets ticket){
+    public boolean agregar(String ticket){
     this.list.add(ticket);
     return true;
     }
-    public boolean eliminar(Tickets ticket{
-    ticket.delete(ticket);
-    }
-    public boolean buscar(Tickets ticket){
+    public boolean eliminar(String ticket){
+    list.remove(ticket);
+    return true;
     
+    }
+    public boolean buscar(String ticket){
+    return false;
     }
     
     
