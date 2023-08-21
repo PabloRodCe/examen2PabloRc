@@ -4,10 +4,24 @@
  */
 package Clientes;
 
+import static java.util.Collections.list;
+
+
 /**
  *
  * @author Pablo Rod
  */
-public class controller {
-    
+public class controller  {
+   
+
+
+    public String generarticket(tickets){
+        cont++;
+     Tickets ticket = new Tickets("01","plataforma");
+     
+     list.add(ticket,cont);
+     
+     return list;
+     
+    }
 }

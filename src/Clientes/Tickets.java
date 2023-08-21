@@ -10,29 +10,29 @@ package Clientes;
  */
 public class Tickets {
    private int numero;
-   private char tipo;
+   private String tipo;
+   
+    switch tipo:
+            case p-> plataforma;
+            case c -> caja;
+            case a -> preferencial;
+                
    
 
     public void setNumero(int numero) {
         this.numero = numero;
     }
 
-    public void setTipo(char tipo) {
+    public void setTipo(String tipo) {
         this.tipo = tipo;
     }
 
-    public Tickets(int numero, char tipo) {
+    public Tickets(int numero, String tipo) {
         this.numero = numero;
         this.tipo = tipo;
     }
     
-    if (tipo=plataforma) {
     
-   
-    
-    
-    
-}
    
    
    
