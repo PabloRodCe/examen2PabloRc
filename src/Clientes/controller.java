@@ -4,24 +4,27 @@
  */
 package Clientes;
 
-import static java.util.Collections.list;
+
 
 
 /**
  *
  * @author Pablo Rod
  */
-public class controller  {
+public class controller extends ListaTickets<Tickets> {
+
+    public controller(int numero, String tipo) {
+        super(numero, tipo);
+    }
    
 
 
-    public String generarticket(tickets){
-        cont++;
-     Tickets ticket = new Tickets("01","plataforma");
+    public String generarticket(){
+       
+     Tickets ticket = new Tickets(01,"tipo");
      
-     list.add(ticket,cont);
+     list.add(ticket);
      
-     return list;
      
     }
 }
