@@ -25,6 +25,14 @@ public class Tickets {
         this.numero = numero;
         this.tipo = tipo;
     }
+    
+    if (tipo=plataforma) {
+    
+   
+    
+    
+    
+}
    
    
    

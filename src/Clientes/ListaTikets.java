@@ -4,11 +4,14 @@
  */
 package Clientes;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Pablo Rod
  */
 public class ListaTikets extends Tickets {
+    ArrayList<String> list = new  ArrayList<>();
 
     public ListaTikets(int numero, char tipo) {
         super(numero, tipo);
@@ -16,7 +19,8 @@ public class ListaTikets extends Tickets {
     
     
     public boolean agregar(Tickets ticket){
-    ticket.add();
+    this.list.add(ticket);
+    return true;
     }
     public boolean eliminar(Tickets ticket{
     ticket.delete(ticket);
